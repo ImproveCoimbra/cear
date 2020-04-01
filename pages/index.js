@@ -43,8 +43,8 @@ export default () => {
               </div>
             </div>
             <img
-              src="/assets/hero-illu-alt.png"
-              alt="Vin og sjov"
+              src="/assets/hero-illu.svg"
+              alt="Comida para casa"
               className="hidden md:block w-128 h-128"
             />
           </div>
@@ -56,17 +56,17 @@ export default () => {
 }
 
 const pageContent = {
-  'da-DK': {
-    titleBlue: 'Støt restauranter i København ved at',
-    titlePink: 'købe take-away',
-    description: `Dine lokale spisesteder er ramt af den nuværende krise—men de laver stadig mad! Hjælp dem til at forblive åbne ved at købe take-away fra de bedste restauranter i København.`,
-    find: 'Find restauranter',
-    add: 'Tilføj din restaurant',
+  'pt-PT': {
+    titleBlue: 'Ajuda os restaurantes portugueses',
+    titlePink: 'pedindo comida para casa',
+    description: `Os teus restaurantes preferidos estão a passar por tempos difíceis, mas alguns ainda estão a cozinhar para ti. Ajuda-os a pagar as contas nestes meses pedindo take-away de alguns dos melhores restaurantes do país.`,
+    find: 'Encontra restaurantes',
+    add: 'Adiciona o teu restaurante',
   },
   'en-GB': {
-    titleBlue: 'Support restaurants in Copenhagen by',
+    titleBlue: 'Support restaurants in Portugal by',
     titlePink: 'getting take-out',
-    description: `Your local food joints are struggling during the current crisis — but they're still cooking! Help them keep the lights on, by getting take-out from the best restaurants in Copenhagen.`,
+    description: `Your local food joints are struggling during the current crisis — but they're still cooking! Help them keep the lights on, by getting take-out from the best restaurants in Portugal.`,
     find: 'Find restaurants',
     add: 'Add your restaurant',
   },

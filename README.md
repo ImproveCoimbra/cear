@@ -1,4 +1,4 @@
-# Dine CPH readme
+# Cear PT readme
 
 ## Prerequisites
 

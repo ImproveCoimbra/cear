@@ -60,7 +60,7 @@ export default () => {
 }
 
 const pageContent = {
-  'da-DK': {
+  'pt-PT': {
     resourcesTitle: 'Ressourcer',
     resourcesDescription:
       'Vi har listet et par ressourcer, som måske kan være hjælpsomme nedenfor. Har du nogle tilføjelser?',

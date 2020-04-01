@@ -1,14 +1,14 @@
 module.exports = {
   theme: {
     colors: {
-      // https://www.happyhues.co/palettes/17
-      sand: '#f3d2c1',
-      'sand-light': '#fef6e4',
-      pink: '#f582ae',
-      navy: '#001858',
-      'navy-light': '#172c66',
-      teal: '#8bd3dd',
-      white: '#fff',
+      // https://www.happyhues.co/palettes/2
+      sand: '#fceaed',
+      'sand-light': '#fffffe', // elements background
+      pink: '#ff5470', // elements button
+      navy: '#00214d', // elements button text
+      'navy-light': '#1b2d45', // elements paragraph
+      teal: '#00ebc7', // illustration secondary 
+      white: '#fffffe', // white
     },
     fontFamily: {
       inter:

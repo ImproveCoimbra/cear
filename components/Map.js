@@ -13,8 +13,8 @@ import LoadingSpinner from './LoadingSpinner'
 export default ({ restaurants, content }) => {
   const [tooltip, setTooltip] = useState(false)
   const [copenhagen] = useState({
-    lat: 55.6836692,
-    lng: 12.571585,
+    lat: 40.2110641,
+    lng: -8.4290153,
   })
 
   // Reducing number of requests to Maps API
@@ -31,7 +31,7 @@ export default ({ restaurants, content }) => {
           clickableIcons={false}
           mapContainerClassName="border-t border-sand"
           mapContainerStyle={{ height: 'calc( 100vh - 85px)' }}
-          zoom={13}
+          zoom={7}
         >
           <Tooltip
             tooltip={tooltip}

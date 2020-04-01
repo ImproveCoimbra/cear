@@ -12,20 +12,23 @@ export default () => {
       <div className="flex flex-wrap md:flex-no-wrap items-baseline border-t-2 border-sand max-w-6xl py-12 mx-auto">
         <div className="w-full mb-6 md:mb-0">
           <p className="mb-3">
+            {content.created_prefix}{' '}
+            <a href="https://bloco.io" target="_blank" rel="noopener">
+              Bloco
+            </a>              
+            {' '}{content.and}{' '}
+            <a href="https://twitter.com/jpmgoncalves" target="_blank" rel="noopener">
+              João Gonçalves
+            </a>
+            {'. '}
+          </p>
+          <p className="mb-3">
             {content.prefix}{' '}
-            {
-              // <a href="https://techvaernet.dk" target="_blank" rel="noopener">
-            }
-            Techværnet
-            {
-              // </a>
-            }{' '}
-            {content.and}{' '}
-            <a
-              href="https://shop.empiricalspirits.co/"
-              target="_blank"
-              rel="noopener"
-            >
+            <a href="https://dinecph.dk/" target="_blank" rel="noopener">Dine CPH</a>
+            {', '}
+            <a href="https://techvaernet.dk" target="_blank" rel="noopener">Techværnet</a>
+            {' '}{content.and}{' '}
+            <a href="https://shop.empiricalspirits.co/" target="_blank" rel="noopener">
               Empirical Spirits
             </a>
             {'. '}
@@ -44,7 +47,7 @@ export default () => {
             {' ⟶ '}
             <a
               className="ml-1"
-              href="https://github.com/covid19-group/dinecph"
+              href="https://github.com/ImproveCoimbra/cear"
               target="_blank"
               rel="noopener"
             >
@@ -67,14 +70,16 @@ const NavLink = ({ href, label }) => (
 )
 
 const pageContent = {
-  'da-DK': {
-    prefix: 'Et initiativ af',
-    and: 'og',
-    built: 'Udviklet af',
-    os: 'Det er open source',
+  'pt-PT': {
+    created_prefix: 'Adaptado por',
+    prefix: 'Inspirado por ',
+    and: 'e',
+    built: 'Criado por',
+    os: 'Código aberto',
   },
   'en-GB': {
-    prefix: 'An initiative by',
+    created_prefix: 'Created by',
+    prefix: 'Inspired by ',
     and: 'and',
     built: 'Built by',
     os: "It's open source",

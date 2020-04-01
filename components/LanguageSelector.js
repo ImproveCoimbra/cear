@@ -2,13 +2,13 @@ import { useState, createContext, useContext } from 'react'
 
 const languages = {
   'en-GB': 'Switch to English',
-  'da-DK': 'Vis på dansk',
+  'pt-PT': 'Mudar para português',
 }
 
 export const LanguageContext = createContext()
 
 export function LanguageProvider({ children }) {
-  const [language, setLanguage] = useState('en-GB')
+  const [language, setLanguage] = useState('pt-PT')
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
       {children}

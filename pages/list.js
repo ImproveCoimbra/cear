@@ -8,17 +8,20 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
 const pageContent = {
-  'da-DK': {
-    title: 'Restauranter',
-    offersLabel: 'Tilbud',
+  'pt-PT': {
+    title: 'Restaurantes',
+    offersLabel: 'Ofertas',
     offers: {
-      Food: 'Mad',
-      Wine: 'Vin',
-      Drinks: 'Drikkevarer',
-      Giftcards: 'Gavekort',
+      Food: 'Comida',
+      Wine: 'Bebida',
+      Drinks: 'Vinho',
+      Giftcards: 'Vouchers',
+      Lisboa: 'Lisboa',
+      Porto: 'Porto',
+      Coimbra: 'Coimbra',
     },
-    delivery: 'Levering',
-    orderLabel: 'Besøg og bestil',
+    delivery: 'Com Entrega',
+    orderLabel: 'Encomendar',
   },
   'en-GB': {
     title: 'Restaurants',
@@ -28,6 +31,9 @@ const pageContent = {
       Wine: 'Wine',
       Drinks: 'Drinks',
       Giftcards: 'Giftcards',
+      Lisboa: 'Lisboa',
+      Porto: 'Porto',
+      Coimbra: 'Coimbra',
     },
     delivery: 'Delivery',
     orderLabel: 'View and order',
@@ -108,7 +114,7 @@ export default ({ restaurants }) => {
                   <p className="w-full sm:w-auto font-medium m-1 mr-2">
                     {content.offersLabel}
                   </p>
-                  {['Food', 'Wine', 'Drinks', 'Giftcards'].map(offer => {
+                  {['Food', 'Wine', 'Drinks', 'Giftcards', 'Lisboa', 'Porto', 'Coimbra'].map(offer => {
                     const isChecked = filterOffers.includes(offer)
                     const handleChange = () => {
                       if (isChecked) {

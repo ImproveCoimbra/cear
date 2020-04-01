@@ -21,19 +21,11 @@ export default () => {
             </h2>
             <p className="max-w-xl text-navy-light text-lg mb-4">
               {content.description}
-              <a href="https://cellars.nyc" target="_blank" rel="noopener">
-                cellars.nyc
-              </a>
-              .
             </p>
             <p className="max-w-xl text-navy-light text-lg mb-4">
               {content.contact}
-              <a href="mailto:martin@pelion.app">martin@pelion.app</a>.
-            </p>
-            <p className="max-w-xl text-navy-light text-lg">
-              {content.webmaster}
-              <a href="mailto:sebastianwinther@gmail.com">
-                sebastianwinther@gmail.com
+              <a href="mailto:joaopmgoncalves+cear@gmail.com ">
+                joaopmgoncalves+cear@gmail.com 
               </a>
               .
             </p>
@@ -46,16 +38,14 @@ export default () => {
 }
 
 const pageContent = {
-  'da-DK': {
-    title: 'Om os',
-    description: `COVID-19 krisen har ramt restaurant-scenen i København. Mange af dem er begyndt at tilbyde take-away som en respons. Vi har lavet den her side for at sprede ordet – inspireret af `,
-    contact: 'De fleste henvendelser til ',
-    webmaster: 'Ris og ros til hjemmesiden til ',
+  'pt-PT': {
+    title: 'Sobre',
+    description: `Toda a comunidade da restauração está a sofrer com a crise económica criada pelo COVID-19. Um pouco por todo o mundo, muitos restaurantes estão a mudar drasticamente a maneira como operam passando a focar-se apenas em take-away. Numa tentativa de ajudar a restauração portuguesa, vamos fazer os possíveis para que os nossos restaurantes favoritos consigam passar estes tempos fazendo com que este projecto seja o ponto de partida para muitas refeições em casa.`,
+    contact: 'Questões para ',
   },
   'en-GB': {
     title: 'About',
-    description: `The COVID-19 crisis has hit the Copenhagen restaurant scene hard. Many establishments have started offering take-out. We've made this site to help spread the word — inspired by `,
-    contact: 'Most inquiries: ',
-    webmaster: 'Site feedback: ',
+    description: `The COVID-19 crisis has hit the Copenhagen restaurant scene hard. Many establishments have started offering take-out. We've made this site to help spread the word.`,
+    contact: 'Questions to ',
   },
 }

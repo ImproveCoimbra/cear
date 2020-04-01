@@ -9,10 +9,10 @@ import Logo from './Logo'
 
 const content = {
   restaurants: {
-    'da-DK': {
-      label: 'Restauranter',
-      map: 'Se på kort',
-      list: 'Se på liste',
+    'pt-PT': {
+      label: 'Restaurantes',
+      map: 'Mapa',
+      list: 'Lista',
     },
     'en-GB': {
       label: 'Restaurants',
@@ -20,12 +20,12 @@ const content = {
       list: 'List view',
     },
   },
-  about: { 'da-DK': 'Om os', 'en-GB': 'About' },
+  about: { 'pt-PT': 'Sobre', 'en-GB': 'About' },
   forRestaurants: {
-    'da-DK': {
-      label: 'For restauranter',
-      resources: 'Ressourcer',
-      submit: 'Tilføj',
+    'pt-PT': {
+      label: 'Para restaurantes',
+      resources: 'Recursos',
+      submit: 'Submeter',
     },
     'en-GB': {
       label: 'For restaurants',
@@ -34,7 +34,7 @@ const content = {
     },
   },
   submit: {
-    'da-DK': 'Tilføj',
+    'pt-PT': 'Submeter',
     'en-GB': 'Submit',
   },
 }
@@ -60,7 +60,7 @@ export default () => {
                 className="stroke-none text-3xl sm:mr-1"
               />
               <h2 className="hidden sm:inline-block font-extrabold text-2xl">
-                Dine CPH
+                Cear PT
               </h2>
             </a>
           </Link>

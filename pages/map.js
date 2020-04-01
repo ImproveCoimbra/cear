@@ -8,14 +8,14 @@ import Nav from '../components/Nav'
 import Map from '../components/Map'
 
 const pageContent = {
-  'da-DK': {
+  'pt-PT': {
     offers: {
-      Food: 'Mad',
-      Wine: 'Vin',
-      Drinks: 'Drikkevarer',
-      Giftcards: 'Gavekort',
+      Food: 'Comida',
+      Wine: 'Vinho',
+      Drinks: 'Bebida',
+      Giftcards: 'Vales oferta',
     },
-    orderLabel: 'Besøg og bestil',
+    orderLabel: 'Ver e ordenar',
   },
   'en-GB': {
     offers: {
