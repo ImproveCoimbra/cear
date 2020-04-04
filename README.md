@@ -1,4 +1,6 @@
-# Cear PT readme
+# Jantarada
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5e7ab9f3-a8f5-4ae6-9887-a22b2a108ec1/deploy-status)](https://app.netlify.com/sites/jantarada/deploys)
 
 ## Prerequisites
 

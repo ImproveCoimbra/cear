@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 export default ({ children }) => {
-  const title = 'Cear PT'
+  const title = 'Jantarada'
   const description =
-    "Your local food joints are struggling during the current crisis — but they're still cooking! Help them keep the lights on, by getting take-out from the best restaurants in Copenhagen."
+    "Os teus restaurantes preferidos estão a passar por tempos difíceis, mas alguns ainda estão a cozinhar para ti. Ajuda-os a pagar as contas nestes meses pedindo take-away de alguns dos melhores restaurantes do país."
   return (
     <Head>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />

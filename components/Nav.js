@@ -60,7 +60,7 @@ export default () => {
                 className="stroke-none text-3xl sm:mr-1"
               />
               <h2 className="hidden sm:inline-block font-extrabold text-2xl">
-                Cear PT
+                Jantarada
               </h2>
             </a>
           </Link>

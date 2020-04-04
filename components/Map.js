@@ -12,7 +12,7 @@ import LoadingSpinner from './LoadingSpinner'
 
 export default ({ restaurants, content }) => {
   const [tooltip, setTooltip] = useState(false)
-  const [copenhagen] = useState({
+  const [center] = useState({
     lat: 40.2110641,
     lng: -8.4290153,
   })
@@ -27,7 +27,7 @@ export default ({ restaurants, content }) => {
     return (
       <LoadScriptNext googleMapsApiKey={restrictedGoogleMapsApiKey}>
         <GoogleMap
-          center={copenhagen}
+          center={center}
           clickableIcons={false}
           mapContainerClassName="border-t border-sand"
           mapContainerStyle={{ height: 'calc( 100vh - 85px)' }}

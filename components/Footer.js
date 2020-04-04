@@ -47,7 +47,7 @@ export default () => {
             {' ⟶ '}
             <a
               className="ml-1"
-              href="https://github.com/ImproveCoimbra/cear"
+              href="https://github.com/ImproveCoimbra/jantarada"
               target="_blank"
               rel="noopener"
             >

@@ -61,11 +61,11 @@ export default () => {
 
 const pageContent = {
   'pt-PT': {
-    resourcesTitle: 'Ressourcer',
+    resourcesTitle: 'Recursos',
     resourcesDescription:
-      'Vi har listet et par ressourcer, som måske kan være hjælpsomme nedenfor. Har du nogle tilføjelser?',
-    contact: 'Skriv til os',
-    submitTitle: 'Tilføj din restaurant',
+      "We've added a few resources that might be useful for restaurants at this time. Do you know of others that we should add?",
+    contact: 'Entra em contacto',
+    submitTitle: 'Adiciona o teu restaurante',
   },
   'en-GB': {
     resourcesTitle: 'Resources',

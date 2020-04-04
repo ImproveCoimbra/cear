@@ -24,8 +24,8 @@ export default () => {
             </p>
             <p className="max-w-xl text-navy-light text-lg mb-4">
               {content.contact}
-              <a href="mailto:joaopmgoncalves+cear@gmail.com ">
-                joaopmgoncalves+cear@gmail.com 
+              <a href="mailto:joaopmgoncalves+jantarada@gmail.com ">
+                joaopmgoncalves+jantarada@gmail.com 
               </a>
               .
             </p>
