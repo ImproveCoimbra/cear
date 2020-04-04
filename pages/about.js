@@ -45,7 +45,12 @@ const pageContent = {
   },
   'en-GB': {
     title: 'About',
-    description: `The COVID-19 crisis has hit the Copenhagen restaurant scene hard. Many establishments have started offering take-out. We've made this site to help spread the word.`,
+    description: `The hospitality community is suffering a lot with this economic crisis created by COVID-19. A little all over the world, many restaurants are changing drastically the way they operate and approach the limitations of working with fight against the spread of the disease, focusing only on providing take-away.
+
+With this project, we’re listing some of the restaurants that are trying to have another source of income to surpass the difficulties created by this the state of emergency and new sanitary laws.
+
+The list is crowdsourced - anyone can submit a restaurant, but we reserve ourselves the right of confirmation before the publication of the submitted restaurant in order to keep the list filled only with real and properly documented places.
+`,
     contact: 'Questions to ',
   },
 }
