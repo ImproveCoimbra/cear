@@ -46,7 +46,7 @@ export default ({ restaurants, content }) => {
               !!restaurant.positionData.results.length &&
               restaurant.positionData.results[0].geometry &&
               restaurant.positionData.results[0].geometry.location
-            if (restaurant.display && position)
+            if (position)
               return (
                 <Marker
                   key={restaurant.name}

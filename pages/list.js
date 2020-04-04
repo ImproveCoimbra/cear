@@ -163,7 +163,6 @@ export default ({ restaurants }) => {
                   // Filter for necessary content
                   .filter(
                     restaurant =>
-                      restaurant.display &&
                       restaurant.name &&
                       restaurant.description &&
                       restaurant.url
@@ -214,6 +213,8 @@ export async function getStaticProps() {
     .select({
       maxRecords: 999999, // don't want to paginate...
       view: 'Grid view', // NOTE: changing the view name will break things
+      fields: ['name', 'address', 'description', 'offerings', 'delivery', 'phone', 'url'],
+      filterByFormula: "display = '1'",
     })
     .all()
   const restaurants = await Promise.all(records.map(record => record.fields))
