@@ -63,7 +63,7 @@ const pageContent = {
   'pt-PT': {
     resourcesTitle: 'Recursos',
     resourcesDescription:
-      "We've added a few resources that might be useful for restaurants at this time. Do you know of others that we should add?",
+      "Aqui temos alguns recursos que podem ser úteis para alguns restaurantes de momento. Sabes de mais algum que possamos colocar aqui?",
     contact: 'Entra em contacto',
     submitTitle: 'Adiciona o teu restaurante',
   },
@@ -80,8 +80,8 @@ const resourcesList = [
   {
     title: 'Superb Corona Support Programme',
     description:
-      'Superb is currently offering restaurants worldwide to use their platform to sell take-out and gift cards online — free of charge.',
-    actionLabel: 'Sign up now',
+      'Superb está actualmente a oferecer aos restaurantes por todo o mundo que usem a plataforma deles para vender take-out e vouchers online - sem contrapartidas.',
+    actionLabel: 'Saber Mais',
     actionUrl:
       'https://www.superbexperience.com/corona-support-program-for-restaurants',
   },
