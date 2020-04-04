@@ -17,7 +17,7 @@ export default () => {
               Bloco
             </a>              
             {' '}{content.and}{' '}
-            <a href="https://twitter.com/jpmgoncalves" target="_blank" rel="noopener">
+            <a href="https://www.instagram.com/oinstagramdojoao/" target="_blank" rel="noopener">
               João Gonçalves
             </a>
             {'. '}
