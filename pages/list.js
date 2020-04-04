@@ -15,7 +15,7 @@ const pageContent = {
       Food: 'Comida',
       Wine: 'Bebida',
       Drinks: 'Vinho',
-      Giftcards: 'Vouchers',
+      Vouchers: 'Vouchers',
       Lisboa: 'Local: Lisboa',
       Porto: 'Local: Porto',
       Coimbra: 'Local: Coimbra',
@@ -30,7 +30,7 @@ const pageContent = {
       Food: 'Food',
       Wine: 'Wine',
       Drinks: 'Drinks',
-      Giftcards: 'Giftcards',
+      Vouchers: 'Giftcards',
       Lisboa: 'Place: Lisboa',
       Porto: 'Place: Porto',
       Coimbra: 'Place: Coimbra',
@@ -114,7 +114,7 @@ export default ({ restaurants }) => {
                   <p className="w-full sm:w-auto font-medium m-1 mr-2">
                     {content.offersLabel}
                   </p>
-                  {['Food', 'Wine', 'Drinks', 'Giftcards', 'Lisboa', 'Porto', 'Coimbra'].map(offer => {
+                  {['Food', 'Wine', 'Drinks', 'Vouchers', 'Lisboa', 'Porto', 'Coimbra'].map(offer => {
                     const isChecked = filterOffers.includes(offer)
                     const handleChange = () => {
                       if (isChecked) {
