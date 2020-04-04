@@ -83,7 +83,7 @@ const ListItem = ({ restaurant, content }) => {
         )}
         {delivery && (
           <div className="sm:absolute top-0 right-0 font-medium text-sm sm:bg-sand sm:border-b border-sand sm:px-2 sm:py-1 mt-4 sm:m-2">
-            ✓ Delivery available
+            ✓ Com Entregas
           </div>
         )}
       </div>
