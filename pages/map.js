@@ -11,11 +11,14 @@ const pageContent = {
   'pt-PT': {
     offers: {
       Food: 'Comida',
-      Wine: 'Vinho',
-      Drinks: 'Bebida',
-      Giftcards: 'Vales oferta',
+      Wine: 'Bebida',
+      Drinks: 'Vinho',
+      Giftcards: 'Vouchers',
+      Lisboa: 'Lisboa',
+      Porto: 'Porto',
+      Coimbra: 'Coimbra',
     },
-    orderLabel: 'Ver e ordenar',
+    orderLabel: 'Encomendar',
   },
   'en-GB': {
     offers: {
@@ -23,6 +26,9 @@ const pageContent = {
       Wine: 'Wine',
       Drinks: 'Drinks',
       Giftcards: 'Giftcards',
+      Lisboa: 'Lisboa',
+      Porto: 'Porto',
+      Coimbra: 'Coimbra',
     },
     orderLabel: 'View and order',
   },
