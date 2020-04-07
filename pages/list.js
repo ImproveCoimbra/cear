@@ -13,8 +13,8 @@ const pageContent = {
     offersLabel: 'Ofertas',
     offers: {
       Food: 'Comida',
-      Wine: 'Bebida',
-      Drinks: 'Vinho',
+      Wine: 'Vinho',
+      Drinks: 'Bebidas',
       Vouchers: 'Vouchers',
       Lisboa: 'Local: Lisboa',
       Porto: 'Local: Porto',
