@@ -13,13 +13,17 @@ export default () => {
         <div className="w-full mb-6 md:mb-0">
           <p className="mb-3">
             {content.created_prefix}{' '}
-            <a href="https://bloco.io" target="_blank" rel="noopener">
-              Bloco
-            </a>              
-            {' '}{content.and}{' '}
             <a href="https://www.instagram.com/oinstagramdojoao/" target="_blank" rel="noopener">
               João Gonçalves
             </a>
+            {', '}
+            <a href="https://bloco.io" target="_blank" rel="noopener">
+              Bloco
+            </a>
+            {' '}{content.and}{' '}
+            <a href="https://weareredlight.com" target="_blank" rel="noopener">
+              RedLight
+            </a>      
             {'. '}
           </p>
           <p className="mb-3">
