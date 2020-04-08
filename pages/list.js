@@ -207,7 +207,7 @@ export default ({ restaurants }) => {
                     })}
                   </div>
                 </div>
-                <label className="flex-shrink-0 inline-flex items-center font-medium cursor-pointer m-1">
+                <label className="flex-shrink-0 inline-flex items-center font-medium cursor-pointer m-1 mt-2">
                   <input
                     type="checkbox"
                     checked={filterDelivery}
