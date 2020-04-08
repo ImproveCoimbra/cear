@@ -75,6 +75,7 @@ const Tooltip = ({ tooltip, setTooltip, content }) => {
     : undefined
   const offers = tooltip.offerings || undefined
   const delivery = tooltip.delivery || false
+  const staffPick = tooltip.stackPick || false
   const phone = tooltip.phone || undefined
   const url = tooltip.url || undefined
   const position =
@@ -123,7 +124,8 @@ const Tooltip = ({ tooltip, setTooltip, content }) => {
                   ))}
                 </ul>
               )}
-              {delivery && <div className="mb-3">✓ Delivery available</div>}
+              {delivery && <div className="mb-3">✓ {content.delivery}</div>}
+              {staffPick && <div className="mb-3">★ {content.staffPick}</div>}
               {phone && <div className="mb-3">{phone}</div>}
               {url && (
                 <a

@@ -11,25 +11,35 @@ const pageContent = {
   'pt-PT': {
     offers: {
       Food: 'Comida',
-      Wine: 'Bebida',
-      Drinks: 'Vinho',
+      Wine: 'Vinho',
+      Beer: 'Cerveja',
+      Drinks: 'Bebidas',
       Vouchers: 'Vouchers',
       Lisboa: 'Lisboa',
       Porto: 'Porto',
       Coimbra: 'Coimbra',
+      Aveiro: 'Aveiro',
+      Leiria: 'Leiria',
     },
+    delivery: 'Com Entrega',
+    staffPick: 'Destaque',
     orderLabel: 'Encomendar',
   },
   'en-GB': {
     offers: {
       Food: 'Food',
       Wine: 'Wine',
+      Beer: 'Beer',
       Drinks: 'Drinks',
       Vouchers: 'Giftcards',
       Lisboa: 'Lisboa',
       Porto: 'Porto',
       Coimbra: 'Coimbra',
+      Aveiro: 'Aveiro',
+      Leiria: 'Leiria',
     },
+    delivery: 'Delivery',
+    staffPick: 'Staff Pick',
     orderLabel: 'View and order',
   },
 }
@@ -69,7 +79,7 @@ export async function getStaticProps() {
     .select({
       maxRecords: 999999, // don't want to paginate...
       view: 'Grid view', // NOTE: changing the view name will break things,
-      fields: ['name', 'address', 'description', 'offerings', 'delivery', 'phone', 'url'],
+      fields: ['name', 'address', 'description', 'offerings', 'delivery', 'phone', 'url', 'staff_pick'],
       filterByFormula: "display = '1'",
     })
     .all()
