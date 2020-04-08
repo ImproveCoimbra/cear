@@ -75,7 +75,7 @@ const Tooltip = ({ tooltip, setTooltip, content }) => {
     : undefined
   const offers = tooltip.offerings || undefined
   const delivery = tooltip.delivery || false
-  const staffPick = tooltip.stackPick || false
+  const staffPick = tooltip.staff_pick || false
   const phone = tooltip.phone || undefined
   const url = tooltip.url || undefined
   const position =
