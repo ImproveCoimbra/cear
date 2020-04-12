@@ -22,9 +22,9 @@ const pageContent = {
       Porto: 'Porto',
       Coimbra: 'Coimbra',
       Aveiro: 'Aveiro',
-      Évora: 'Évora',
+      Evora: 'Évora',
       Leiria: 'Leiria',
-      
+
     },
     delivery: 'Com Entrega',
     staffPick: 'Destaque',
@@ -44,7 +44,7 @@ const pageContent = {
       Porto: 'Porto',
       Coimbra: 'Coimbra',
       Aveiro: 'Aveiro',
-      Évora: 'Évora'
+      Evora: 'Évora',
       Leiria: 'Leiria',
     },
     delivery: 'Delivery',
