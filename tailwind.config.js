@@ -3,12 +3,12 @@ module.exports = {
     colors: {
       // https://www.happyhues.co/palettes/2
       sand: '#fceaed',
-      'sand-light': '#fffffe', // elements background
+      'sand-light': '#ffffff', // elements background
       pink: '#ff5470', // elements button
       navy: '#00214d', // elements button text
       'navy-light': '#1b2d45', // elements paragraph
-      teal: '#00ebc7', // illustration secondary 
-      white: '#fffffe', // white
+      teal: '#00ebc7', // illustration secondary
+      white: '#ffffff', // white
     },
     fontFamily: {
       inter:

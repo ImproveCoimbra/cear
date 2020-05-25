@@ -43,7 +43,7 @@ export default () => {
               </div>
             </div>
             <img
-              src="/assets/hero-illu.svg"
+              src="/assets/hero-illu.jpg"
               alt="Comida para casa"
               className="hidden md:block w-128 h-128"
             />
